@@ -64,7 +64,7 @@ export default {
 .gridContent {
   .section {
     height: 100vh;
-    background: linear-gradient(#fdcc52, #fdc539);
+    background: linear-gradient(#fbc642, #ffc021);
     padding-top: 100px;
   }
 
@@ -87,27 +87,27 @@ export default {
   }
 
   #img1 {
-    left: 100px;
+    left: 0px;
   }
 
   #img2 {
-    left: 300px;
+    left: 200px;
   }
 
   #img3 {
-    left: 500px;
+    left: 400px;
   }
 
   #img4 {
-    left: 700px;
+    left: 600px;
   }
 
   #img5 {
-    left: 900px;
+    left: 800px;
   }
 
   #img6 {
-    left: 1100px;
+    right: 0;
   }
 }
 </style>
