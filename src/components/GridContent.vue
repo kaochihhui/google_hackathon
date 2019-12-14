@@ -2,7 +2,7 @@
   <div class="gridContent">
     <div class="container-fluid section">
       <div class="container text-center sectionHeader">
-        <h1>貨出去! 人進來! 大家跑起來!!!</h1>
+        <h1>脂肪出去! 健康進來! 大家跑起來!!!</h1>
         <p class="text-muted">~ 你所不知道的各種跑步姿勢 ~</p>
         <hr />
       </div>
@@ -105,7 +105,7 @@ export default {
   #img5 {
     left: 900px;
   }
-  
+
   #img6 {
     left: 1100px;
   }
