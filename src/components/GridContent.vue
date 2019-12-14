@@ -6,43 +6,59 @@
         <p class="text-muted">~ 你所不知道的各種跑步姿勢 ~</p>
         <hr />
       </div>
-      <div class="sectionGrid">
-        <img
-          id="img1"
-          class="iconImg"
-          src="https://media.giphy.com/media/dvOkTV0lBd1E07TIeA/giphy.gif"
-          alt=""
-        />
-        <img
-          id="img2"
-          class="iconImg"
-          src="https://media.giphy.com/media/Rhpk0e7gz0pcLWmppH/giphy.gif"
-          alt=""
-        />
-        <img
-          id="img3"
-          class="iconImg"
-          src="https://media.giphy.com/media/IyxwTfCk45lKm4cnqO/giphy.gif"
-          alt=""
-        />
-        <img
-          id="img4"
-          class="iconImg"
-          src="https://media.giphy.com/media/UQDf5KY2jSyMcLNcef/giphy.gif"
-          alt=""
-        />
-        <img
-          id="img5"
-          class="iconImg"
-          src="https://media.giphy.com/media/l16gMygmyFtDcyd0NK/giphy.gif"
-          alt=""
-        />
-        <img
-          id="img6"
-          class="iconImg"
-          src="https://media.giphy.com/media/kcTpdLpgRC3z8QG8JW/giphy.gif"
-          alt=""
-        />
+      <div class="d-flex flex-row justify-content-around sectionGrid">
+        <div class="d-flex flex-row justify-content-start">
+          <div class="img-div" >
+             <img
+            id="img1"
+            class="iconImg"
+            src="https://media.giphy.com/media/dvOkTV0lBd1E07TIeA/giphy.gif"
+            alt=""
+          />
+          </div>
+          <div class="img-div" >
+          <img
+            id="img2"
+            class="iconImg"
+            src="https://media.giphy.com/media/Rhpk0e7gz0pcLWmppH/giphy.gif"
+            alt=""
+          />
+          </div>
+           <div class="img-div" >
+          <img
+            id="img3"
+            class="iconImg"
+            src="https://media.giphy.com/media/IyxwTfCk45lKm4cnqO/giphy.gif"
+            alt=""
+          />
+           </div>
+            <div class="img-div" >
+          <img
+            id="img4"
+            class="iconImg"
+            src="https://media.giphy.com/media/UQDf5KY2jSyMcLNcef/giphy.gif"
+            alt=""
+          />
+            </div>
+             <div class="img-div" >
+          <img
+            id="img5"
+            class="iconImg"
+            src="https://media.giphy.com/media/l16gMygmyFtDcyd0NK/giphy.gif"
+            alt=""
+          />
+          </div>
+        </div>
+        <div>
+          <div class="img-div">
+            <img
+              id="img6"
+              class="iconImg"
+              src="https://media.giphy.com/media/kcTpdLpgRC3z8QG8JW/giphy.gif"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -81,33 +97,39 @@ export default {
   }
   .sectionGrid {
     .iconImg {
-      position: absolute;
-      width: 400px;
+      // position: absolute;
+      width: 350px;
+      margin-left:-150px;
     }
   }
-
-  #img1 {
-    left: 0px;
+  .img-div{
+    width:175px;
   }
 
-  #img2 {
-    left: 200px;
-  }
+  
 
-  #img3 {
-    left: 400px;
-  }
+  // #img1 {
+  //   left: 0px;
+  // }
 
-  #img4 {
-    left: 600px;
-  }
+  // #img2 {
+  //   left: 200px;
+  // }
 
-  #img5 {
-    left: 800px;
-  }
+  // #img3 {
+  //   left: 400px;
+  // }
+
+  // #img4 {
+  //   left: 600px;
+  // }
+
+  // #img5 {
+  //   left: 800px;
+  // }
 
   #img6 {
-    right: 0;
+    margin-left: -25px;
   }
 }
 </style>
