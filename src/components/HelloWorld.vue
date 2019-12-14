@@ -83,14 +83,53 @@
         >
       </li>
     </ul>
+  <button @click="doSomething">1234</button>
+
   </div>
 </template>
 
 <script>
+const signalR = require("@microsoft/signalr");
+
 export default {
+
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  data() {
+    return {
+      connection: null
+    };
+    
+  },
+  mounted() {
+  this.connection = new signalR.HubConnectionBuilder().withUrl("https://signalrservices.azurewebsites.net/messageHub").build();
+
+  this.connection.on("ReceiveMessage", function (user, message) {
+    var msg = message.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    var encodedMsg = user + " says " + msg;
+    var li = document.createElement("li");
+    li.textContent = encodedMsg;
+    // document.getElementById("messagesList").appendChild(li);
+  });
+  this.connection.start().then(function () {
+    alert('signalR start')
+          // document.getElementById("sendButton").disabled = false;
+  }).catch(function (err) {
+    
+    return err;
+});
+  },
+  methods:{
+    doSomething:function(){
+      alert('click')
+      var user = 1234;
+      var message = 5678;
+      this.connection.invoke("SendMessage", user, message).catch(function (err) {
+        return err;
+      });
+    }
   }
 };
 </script>
