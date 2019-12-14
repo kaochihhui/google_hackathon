@@ -1,5 +1,50 @@
 <template>
   <div class="gridContent">
+    <div class="container-fluid section">
+      <div class="container text-center sectionHeader">
+        <h1>貨出去! 人進來! 大家跑起來!!!</h1>
+        <p class="text-muted">~ 你所不知道的各種跑步姿勢 ~</p>
+        <hr />
+      </div>
+      <div class="sectionGrid">
+        <img
+          id="img1"
+          class="iconImg"
+          src="https://media.giphy.com/media/dvOkTV0lBd1E07TIeA/giphy.gif"
+          alt=""
+        />
+        <img
+          id="img2"
+          class="iconImg"
+          src="https://media.giphy.com/media/Rhpk0e7gz0pcLWmppH/giphy.gif"
+          alt=""
+        />
+        <img
+          id="img3"
+          class="iconImg"
+          src="https://media.giphy.com/media/IyxwTfCk45lKm4cnqO/giphy.gif"
+          alt=""
+        />
+        <img
+          id="img4"
+          class="iconImg"
+          src="https://media.giphy.com/media/UQDf5KY2jSyMcLNcef/giphy.gif"
+          alt=""
+        />
+        <img
+          id="img5"
+          class="iconImg"
+          src="https://media.giphy.com/media/l16gMygmyFtDcyd0NK/giphy.gif"
+          alt=""
+        />
+        <img
+          id="img6"
+          class="iconImg"
+          src="https://media.giphy.com/media/kcTpdLpgRC3z8QG8JW/giphy.gif"
+          alt=""
+        />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -16,4 +61,53 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.gridContent {
+  .section {
+    height: 100vh;
+    background: linear-gradient(#fdcc52, #fdc539);
+    padding-top: 100px;
+  }
+
+  .sectionHeader {
+    .text-muted {
+      color: #6c757d !important;
+    }
+    hr {
+      max-width: 100px;
+      margin: 25px auto 0;
+      border-width: 1px;
+      border-color: rgba(34, 34, 34, 0.1);
+    }
+  }
+  .sectionGrid {
+    .iconImg {
+      position: absolute;
+      width: 400px;
+    }
+  }
+
+  #img1 {
+    left: 100px;
+  }
+
+  #img2 {
+    left: 300px;
+  }
+
+  #img3 {
+    left: 500px;
+  }
+
+  #img4 {
+    left: 700px;
+  }
+
+  #img5 {
+    left: 900px;
+  }
+  
+  #img6 {
+    left: 1100px;
+  }
+}
 </style>
