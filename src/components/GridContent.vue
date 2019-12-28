@@ -8,53 +8,35 @@
       </div>
       <div class="d-flex flex-row justify-content-around sectionGrid">
         <div class="d-flex flex-row justify-content-start">
-          <div class="img-div" >
-             <img
-            id="img1"
-            class="iconImg"
-            src="https://media.giphy.com/media/dvOkTV0lBd1E07TIeA/giphy.gif"
-            alt=""
-          />
-          </div>
-          <div class="img-div" >
-          <img
-            id="img2"
-            class="iconImg"
-            src="https://media.giphy.com/media/Rhpk0e7gz0pcLWmppH/giphy.gif"
-            alt=""
-          />
-          </div>
-           <div class="img-div" >
-          <img
-            id="img3"
-            class="iconImg"
-            src="https://media.giphy.com/media/IyxwTfCk45lKm4cnqO/giphy.gif"
-            alt=""
-          />
-           </div>
-            <div class="img-div" >
-          <img
-            id="img4"
-            class="iconImg"
-            src="https://media.giphy.com/media/UQDf5KY2jSyMcLNcef/giphy.gif"
-            alt=""
-          />
-            </div>
-             <div class="img-div" >
-          <img
-            id="img5"
-            class="iconImg"
-            src="https://media.giphy.com/media/l16gMygmyFtDcyd0NK/giphy.gif"
-            alt=""
-          />
-          </div>
-        </div>
-        <div>
           <div class="img-div">
             <img
-              id="img6"
+              id="img1"
               class="iconImg"
-              src="https://media.giphy.com/media/kcTpdLpgRC3z8QG8JW/giphy.gif"
+              src="https://signalrservices.azurewebsites.net/walkcat.gif"
+              alt=""
+            />
+          </div>
+          <div class="img-div">
+            <img
+              id="img2"
+              class="iconImg"
+              src="https://signalrservices.azurewebsites.net/run.gif"
+              alt=""
+            />
+          </div>
+          <div class="img-div">
+            <img
+              id="img3"
+              class="iconImg"
+              src="https://signalrservices.azurewebsites.net/walk.gif"
+              alt=""
+            />
+          </div>
+          <div class="img-div">
+            <img
+              id="img4"
+              class="iconImg"
+              src="https://signalrservices.azurewebsites.net/runcat.gif"
               alt=""
             />
           </div>
@@ -99,14 +81,12 @@ export default {
     .iconImg {
       // position: absolute;
       width: 350px;
-      margin-left:-150px;
+      margin-left: -150px;
     }
   }
-  .img-div{
-    width:175px;
+  .img-div {
+    width: 175px;
   }
-
-  
 
   // #img1 {
   //   left: 0px;
