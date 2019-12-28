@@ -55,7 +55,7 @@ export default {
 <style scoped lang="scss">
 .footer {
   .section {
-    height: 50vh;
+    height: calc(100vh - 76px);
     background: #0000009c;
     padding-top: 50px;
     text-align: center;
