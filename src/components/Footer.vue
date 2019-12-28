@@ -57,7 +57,7 @@ export default {
   .section {
     height: calc(100vh - 76px);
     background: #0000009c;
-    padding-top: 50px;
+    padding-top: 150px;
     text-align: center;
     color: #ffffff;
     .sectionHeader {

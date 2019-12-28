@@ -12,7 +12,7 @@
             <img
               id="img1"
               class="iconImg"
-              src="https://signalrservices.azurewebsites.net/walkcat.gif"
+              src="https://media.giphy.com/media/hqlrKCydiVohFh5Wmy/giphy.gif"
               alt=""
             />
           </div>
@@ -20,7 +20,7 @@
             <img
               id="img2"
               class="iconImg"
-              src="https://signalrservices.azurewebsites.net/run.gif"
+              src="https://media.giphy.com/media/kfS9eNvRsTVDXj7LDS/giphy.gif"
               alt=""
             />
           </div>
@@ -28,7 +28,7 @@
             <img
               id="img3"
               class="iconImg"
-              src="https://signalrservices.azurewebsites.net/walk.gif"
+              src="https://media.giphy.com/media/cnKOUsxIfSKoIF8Z7c/giphy.gif"
               alt=""
             />
           </div>
@@ -36,9 +36,27 @@
             <img
               id="img4"
               class="iconImg"
-              src="https://signalrservices.azurewebsites.net/runcat.gif"
+              src="https://media.giphy.com/media/RjrAEcRPhuSKoJ7WRV/giphy.gif"
               alt=""
             />
+          </div>
+          <div class="img-div">
+            <img
+              id="img5"
+              class="iconImg"
+              src="https://media.giphy.com/media/Sqfdt2VRK7nHWSvE3n/giphy.gif"
+              alt=""
+            />
+          </div>
+          <div>
+            <div class="img-div">
+              <img
+                id="img6"
+                class="iconImg"
+                src="https://media.giphy.com/media/mCgEW87gnWUD3cSWi3/giphy.gif"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -63,7 +81,7 @@ export default {
   .section {
     height: 100vh;
     background: linear-gradient(#fbc642, #ffc021);
-    padding-top: 100px;
+    padding-top: 150px;
   }
 
   .sectionHeader {
