@@ -22,6 +22,15 @@
           <img class="socialMediaIcon" src="../assets/social_media_icon.png" />
         </a>
       </div>
+      <div class="googleMapIframe">
+        <h4>
+          走起來！歡迎來店裡逛逛～
+        </h4>
+        <iframe height="200" width="400"
+          src="http://maps.google.com.tw/maps?hl=zh-TW&saddr=24.120814, 120.673208&amp;daddr=24.148454, 120.673535&output=embed"
+        >
+        </iframe>
+      </div>
     </div>
     <div class="container-fluid sectionFooter">
       <p>© 健康進來 2019. All Rights Reserved.</p>
@@ -57,7 +66,7 @@ export default {
   .section {
     height: calc(100vh - 76px);
     background: #0000009c;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     color: #ffffff;
     .sectionHeader {
@@ -70,10 +79,13 @@ export default {
     }
     .socialMediaSection {
       margin-top: 30px;
-      .socialMediaIcon{
+      .socialMediaIcon {
         width: 250px;
         margin-top: 20px;
       }
+    }
+    .googleMapIframe{
+      margin-top: 30px;
     }
   }
   .sectionFooter {
