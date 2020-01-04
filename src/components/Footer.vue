@@ -5,16 +5,18 @@
         <h2>看那麼多，還不趕快下載起來!</h2>
       </div>
       <div class="iconSection">
-        <img
-          class="iconDownload"
-          src="https://blackrockdigital.github.io/startbootstrap-new-age/img/app-store-badge.svg"
-          alt=""
-        />
-        <img
-          class="iconDownload"
-          src="https://blackrockdigital.github.io/startbootstrap-new-age/img/google-play-badge.svg"
-          alt=""
-        />
+        <a href="https://signalrservices.azurewebsites.net/home/activity" target="_blank">
+          <img
+            class="iconDownload"
+            src="https://blackrockdigital.github.io/startbootstrap-new-age/img/app-store-badge.svg"
+            alt=""
+          />
+          <img
+            class="iconDownload"
+            src="https://blackrockdigital.github.io/startbootstrap-new-age/img/google-play-badge.svg"
+            alt=""
+          />
+        </a>
       </div>
       <div class="socialMediaSection">
         <h4>喜歡我們記得訂閱、按讚、分享，還要開啟小鈴鐺喔～</h4>
