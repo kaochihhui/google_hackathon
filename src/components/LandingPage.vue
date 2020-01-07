@@ -18,13 +18,20 @@
           type="button"
           @click="moveTo(2)"
         >
+          資訊
+        </button>
+        <button
+          type="button"
+          @click="moveTo(3)"
+        >
           走起來
         </button>
       </div>
       <div class="fullpage-wp" v-fullpage="opts" ref="fullpage">
         <div class="page-1 page"><Header /></div>
         <div class="page-2 page"><GridContent /></div>
-        <div class="page-3 page"><Footer /></div>
+        <div class="page-3 page"><Article /></div>
+        <div class="page-4 page"><Footer /></div>
       </div>
     </div>
   </div>
@@ -33,12 +40,14 @@
 <script>
 import Header from "./Header";
 import GridContent from "./GridContent";
+import Article from "./Article";
 import Footer from "./Footer";
 export default {
   name: "LandingPage",
   components: {
     Header,
     GridContent,
+    Article,
     Footer
   },
   data() {
