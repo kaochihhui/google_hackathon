@@ -29,7 +29,7 @@
           走起來！歡迎來店裡逛逛～
         </h4>
         <iframe height="200" width="400"
-          src="http://maps.google.com.tw/maps?hl=zh-TW&saddr=24.120814, 120.673208&amp;daddr=24.148454, 120.673535&output=embed"
+          src="https://maps.google.com.tw/maps?hl=zh-TW&saddr=24.120814, 120.673208&amp;daddr=24.148454, 120.673535&output=embed"
         >
         </iframe>
       </div>

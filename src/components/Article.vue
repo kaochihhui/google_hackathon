@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       url:
-        "http://emma.pixnet.cc/mainpage/blog/categories/hot/32?page=1&per_page=5&api_version=2&format=json",
+        "https://emma.pixnet.cc/mainpage/blog/categories/hot/32?page=1&per_page=5&api_version=2&format=json",
       articles: [],
       posts: [],
       errors: []
